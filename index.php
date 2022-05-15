@@ -65,24 +65,25 @@ a.jqte_tool_label.unselectable {
     height: 22px !important;
 }*/
 /* CSS for Social */
-.social ul{
+/*.social ul{
     list-style-type: none;
 }
 .social ul li{
     background-color:#000000;
     display: inline;
     padding: 2%;
-}
-/* CSS for navbar section */
-/*.logo{
+}*/
+/*CSS for navbar section */
+.logo{
     width: 10%;
     float: left;
-}*/
+    background-color:transparent;
+}
 
     </style>
     <body id="page-top">
     <!-- Navigation-->
- <!-- <section class="navbar">
+  <!--<section class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
@@ -94,14 +95,24 @@ a.jqte_tool_label.unselectable {
         </div>
       </div>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container">
+                  <section class="navbar" style="background-color: transparent; padding: 0%;">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="mentri_logo.png" alt="MentRI Logo" class="img-responsive" height=125 width=150>
+                </a>
+            </div></section>
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="./"><?php echo $_SESSION['system']['name'] ?></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://b24-ub20ue.bitrix24.com/stream/">Chat</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Activities.php">Activities</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=careers">Jobs</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=forum">Forums</a></li>
@@ -119,6 +130,7 @@ a.jqte_tool_label.unselectable {
                                 </div>
                           </div>
                         </li>
+                   
                         <?php endif; ?>
                         
                      
@@ -186,7 +198,9 @@ a.jqte_tool_label.unselectable {
       </div>
     </div>
   </div>
-  <div id="preloader"></div>
+  
+                    
+ <div id="preloader"></div>
         <footer class=" py-5">
             <div class="container">
                 <div class="row justify-content-center">
@@ -207,18 +221,18 @@ a.jqte_tool_label.unselectable {
                     </div>
                 </div>
             </div>
-            <br>
+           <!--  <br>
             <br>
             <section class="social">
         <div class="container text-center">
-            <ul>
-            <li>
+           <ul>
+                <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/50/000000/gmail-new.png"/></a>
                 </li>
                 
                 <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/50/000000/whatsapp.png"/></a>
-                </li>
+                </li> 
                 <li>
                     <a href="#"><img src="telegram_icon.png"/></a>
                 </li>
@@ -233,7 +247,7 @@ a.jqte_tool_label.unselectable {
                     <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
                 </li>
                
-                <li>
+               <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/50/000000/linkedin.png"/></a>
                 </li>
                 <li>
@@ -245,11 +259,12 @@ a.jqte_tool_label.unselectable {
                 <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/50/000000/reddit.png"/></a>
                 </li>
-            </ul>
+            </ul> 
         </div>
-    </section>
+    </section> -->
+   
             <br>
-            <div class="container"><div class="small text-center text-muted">Copyright © 2022 - <?php echo $_SESSION['system']['name'] ?> | Developed by <a href="https://www.linkedin.com/in/induja-arun-7233b01ab/" target="_blank">Induja</a><div class="small text-center text-muted">& Named by <a href="https://www.linkedin.com/in/robsi-rani-628a3a1ab/" target="_blank">Robsi</a></div></div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2022 - <?php echo $_SESSION['system']['name'] ?> | Developed by <a href="https://www.linkedin.com/in/induja-arun-7233b01ab/" target="_blank">Induja Arun</a><div class="small text-center text-muted">& Named by <a href="https://www.linkedin.com/in/robsi-rani-628a3a1ab/" target="_blank">Robsi Rani</a></div></div></div>
         </footer>
         
        <?php include('footer.php') ?>

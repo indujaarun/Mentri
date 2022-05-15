@@ -29,8 +29,11 @@
     <script type="text/javascript" src="admin/assets/js/jquery-te-1.4.0.min.js" charset="utf-8"></script>
 
 <!-- Start of txt.me widget code -->
-<script src="https://v2.txt.me/livechat/js/wrapper/3acf951ddb6242bc826010e814d43c05" async></script>
-<noscript><a href="https://txt.me/reviews/3acf951ddb6242bc826010e814d43c05" rel="nofollow">Rate First widget customer support</a>, powered by <a href="https://txt.me" rel="noopener nofollow" target="_blank">txt.me</a></noscript>
+<script src="https://v2.txt.me/livechat/js/wrapper/96b6e55428af47bfaf1f9e7bd5e30ab1" async></script>
+<noscript><a href="https://txt.me/reviews/96b6e55428af47bfaf1f9e7bd5e30ab1" rel="nofollow">Rate First widget customer support</a>, powered by <a href="https://txt.me" rel="noopener nofollow" target="_blank">txt.me</a></noscript>
 <!-- End of txt.me widget code -->
+
+
+
 
 
