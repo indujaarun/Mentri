@@ -74,11 +74,11 @@ a.jqte_tool_label.unselectable {
     padding: 2%;
 }*/
 /*CSS for navbar section */
-.logo{
+/*.logo{
     width: 10%;
     float: left;
     background-color:transparent;
-}
+}*/
 
     </style>
     <body id="page-top">
@@ -100,7 +100,7 @@ a.jqte_tool_label.unselectable {
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
-                    <img src="mentri_logo.png" alt="MentRI Logo" class="img-responsive" height=125 width=150>
+                    <img src="Images/mentri_logo.png" alt="MentRI Logo" class="img-responsive" height=125>
                 </a>
             </div></section>
             <div class="container">
@@ -112,7 +112,7 @@ a.jqte_tool_label.unselectable {
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Profile</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Blog</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://b24-ub20ue.bitrix24.com/stream/">Chat</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Activities.php">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Activities.html">Activities</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=careers">Jobs</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=forum">Forums</a></li>
